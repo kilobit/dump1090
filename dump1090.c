@@ -30,6 +30,10 @@
 #include "coaa.h"
 #include "dump1090.h"
 //
+
+struct stDF tDF;
+struct Modes Modes;
+
 // ============================= Utility functions ==========================
 //
 void sigintHandler(int dummy) {
